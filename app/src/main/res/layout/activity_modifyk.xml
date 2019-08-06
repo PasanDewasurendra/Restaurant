@@ -8,60 +8,61 @@
 
     <fragment
         android:id="@+id/fragment_change"
-        android:layout_width="362dp"
-        android:layout_height="351dp"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="226dp"></fragment>
-
-    <TextView
-        android:id="@+id/textView40"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="-319dp"
-        tools:layout_editor_absoluteY="-184dp" />
+        android:name="com.mad.restaurant.frag_modification"
+        android:layout_width="417dp"
+        android:layout_height="489dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></fragment>
 
     <Button
-        android:id="@+id/button28"
+        android:id="@+id/fb1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="44dp"
+        android:onClick="changeFragment"
         android:text="Add"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginLeft="48dp"
-        android:layout_marginTop="72dp"
+        android:id="@+id/fb2"
+        android:layout_width="85dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="48dp"
+        android:onClick="changeFragment"
         android:text="Update"
-        app:layout_constraintStart_toEndOf="@+id/button28"
+        app:layout_constraintStart_toEndOf="@+id/fb1"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button30"
+        android:id="@+id/fb3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="44dp"
+        android:onClick="changeFragment"
         android:text="Remove"
-        app:layout_constraintStart_toEndOf="@+id/button29"
+        app:layout_constraintStart_toEndOf="@+id/fb2"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="47dp"
-        tools:layout_editor_absoluteY="310dp" />
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="316dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Admin app modifier"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

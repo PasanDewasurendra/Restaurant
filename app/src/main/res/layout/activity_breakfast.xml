@@ -12,7 +12,7 @@
         android:layout_width="48dp"
         android:layout_height="38dp"
         android:scaleType="fitXY"
-        app:layout_constraintStart_toEndOf="@+id/iblunch"
+        app:layout_constraintStart_toEndOf="@+id/ibd"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/home" />
 
@@ -267,7 +267,7 @@
     </ScrollView>
 
     <ImageButton
-        android:id="@+id/iblunch"
+        android:id="@+id/ibd"
         android:layout_width="56dp"
         android:layout_height="39dp"
         android:scaleType="fitXY"

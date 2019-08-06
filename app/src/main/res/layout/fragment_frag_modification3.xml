@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".frag_modification">
+    tools:context=".frag_modification3">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -57,25 +57,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="30dp" />
 
-                <TextView
-                    android:id="@+id/textView56"
-                    android:layout_width="match_parent"
-                    android:layout_height="47dp"
-                    android:autoText="false"
-                    android:text="Price:"
-                    app:autoSizeTextType="uniform" />
-
-                <TextView
-                    android:id="@+id/textView58"
-                    android:layout_width="match_parent"
-                    android:layout_height="43dp" />
-
-                <TextView
-                    android:id="@+id/textView59"
-                    android:layout_width="match_parent"
-                    android:layout_height="48dp"
-                    android:text="Description:"
-                    app:autoSizeTextType="uniform" />
             </LinearLayout>
 
             <LinearLayout
@@ -119,27 +100,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="39dp" />
 
-                <EditText
-                    android:id="@+id/editText10"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:text="Rs." />
-
-                <TextView
-                    android:id="@+id/textView60"
-                    android:layout_width="match_parent"
-                    android:layout_height="46dp" />
-
-                <EditText
-                    android:id="@+id/editText12"
-                    android:layout_width="match_parent"
-                    android:layout_height="117dp"
-                    android:ems="10"
-                    android:gravity="start|top"
-                    android:inputType="textMultiLine" />
-
             </LinearLayout>
         </LinearLayout>
 
@@ -147,6 +107,7 @@
             android:id="@+id/button29"
             android:layout_width="match_parent"
             android:layout_height="65dp"
-            android:text="ADD" />
+            android:text="Delete" />
     </LinearLayout>
+
 </FrameLayout>
