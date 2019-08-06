@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".adminPromotion" />
-        <activity android:name=".shoppingcart" />
         <activity android:name=".icecream" />
         <activity android:name=".Burgers" />
         <activity android:name=".Submarians" />
