@@ -62,8 +62,7 @@
                 android:id="@+id/imageButton4"
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
-                android:scaleType="fitXY"
-                app:srcCompat="@drawable/r" />
+                android:scaleType="fitXY" />
 
         </LinearLayout>
     </ScrollView>

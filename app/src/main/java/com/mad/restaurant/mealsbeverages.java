@@ -47,8 +47,8 @@ public class mealsbeverages extends AppCompatActivity {
         img_btn_dinner.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent in4=new Intent(mealsbeverages.this,dinner.class);
-                startActivity(in4);
+//                Intent in4=new Intent(mealsbeverages.this,dinner.class);
+//                startActivity(in4);
             }
         });
         img_btn_lunch.setOnClickListener(new View.OnClickListener() {

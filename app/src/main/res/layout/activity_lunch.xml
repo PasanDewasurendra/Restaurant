@@ -199,8 +199,7 @@
                     <ImageView
                         android:id="@+id/imageView10"
                         android:layout_width="match_parent"
-                        android:layout_height="131dp"
-                        app:srcCompat="@drawable/r" />
+                        android:layout_height="131dp" />
 
                     <Button
                         android:id="@+id/button8"
