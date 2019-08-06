@@ -9,18 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".beverages"></activity>
+        <activity android:name=".deserts"></activity>
+        <activity android:name=".modifyk" />
+        <activity android:name=".dinnerkisal" />
+        <activity android:name=".beverages" />
         <activity android:name=".lunch" />
         <activity android:name=".breakfast" />
-        <activity android:name=".mealsbeverages" >
+        <activity android:name=".mealsbeverages">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
     </application>
 
 </manifest>

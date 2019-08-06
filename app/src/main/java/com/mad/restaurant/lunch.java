@@ -8,24 +8,35 @@ import android.widget.ImageButton;
 
 public class lunch extends AppCompatActivity {
 
-    ImageButton imageButton;
+    ImageButton imageButton1,imageButton2;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lunch);
-        onclickadditem();
+        onclickgomenu();
+        onclickgoback();
     }
-    public void onclickadditem(){
+    public void onclickgomenu(){
 
-       imageButton =(ImageButton)findViewById(R.id.imageButton3);
-       imageButton.setOnClickListener(new View.OnClickListener() {
+       imageButton2 =(ImageButton)findViewById(R.id.imageButton3);
+       imageButton2.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
-        //       Intent intent=new Intent(lunch.this,MainActivity.class);
-       //        startActivity(intent);
+        //       Intent intent2=new Intent(lunch.this,MainActivity.class);
+       //        startActivity(intent2);
            }
        });
+    }
+    public void onclickgoback(){
+        imageButton1=(ImageButton)findViewById(R.id.iblunch);
+        imageButton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(lunch.this,mealsbeverages.class);
+                startActivity(intent);
+            }
+        });
     }
 }

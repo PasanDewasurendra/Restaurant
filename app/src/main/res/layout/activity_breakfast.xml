@@ -9,13 +9,12 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="39dp"
-        android:layout_height="30dp"
-        android:layout_marginBottom="12dp"
+        android:layout_width="48dp"
+        android:layout_height="38dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/textView14"
-        app:srcCompat="@drawable/home"
-        tools:layout_editor_absoluteX="55dp" />
+        app:layout_constraintStart_toEndOf="@+id/iblunch"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
 
     <TextView
         android:id="@+id/textView14"
@@ -268,12 +267,12 @@
     </ScrollView>
 
     <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="28dp"
-        android:layout_height="30dp"
+        android:id="@+id/iblunch"
+        android:layout_width="56dp"
+        android:layout_height="39dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/left"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="0dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left" />
 
 </android.support.constraint.ConstraintLayout>

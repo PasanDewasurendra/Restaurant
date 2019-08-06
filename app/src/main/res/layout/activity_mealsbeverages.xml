@@ -10,7 +10,7 @@
         android:id="@+id/imageView2"
         android:layout_width="406dp"
         android:layout_height="173dp"
-        android:layout_marginTop="29dp"
+        android:layout_marginTop="40dp"
         android:scaleType="fitXY"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -34,8 +34,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="125dp"
                 android:scaleType="fitXY"
+                android:text="Lunch"
                 app:srcCompat="@drawable/ih" />
 
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Breakfast" />
 
             <ImageButton
                 android:id="@+id/imageButton1"
@@ -44,6 +51,12 @@
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/rk" />
 
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lunch" />
+
             <ImageButton
                 android:id="@+id/imageButton2"
                 android:layout_width="match_parent"
@@ -51,18 +64,37 @@
                 android:scaleType="fitXY"
                 app:srcCompat="@drawable/ck" />
 
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dinner" />
+
             <ImageButton
                 android:id="@+id/imageButton3"
                 android:layout_width="fill_parent"
                 android:layout_height="125dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/images" />
+                app:srcCompat="@drawable/pepsi" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beverages" />
 
             <ImageButton
                 android:id="@+id/imageButton4"
                 android:layout_width="match_parent"
-                android:layout_height="125dp"
-                android:scaleType="fitXY" />
+                android:layout_height="81dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/y" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Deserts" />
 
         </LinearLayout>
     </ScrollView>
@@ -82,5 +114,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="41dp"
+        android:layout_height="39dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home" />
 
 </android.support.constraint.ConstraintLayout>
